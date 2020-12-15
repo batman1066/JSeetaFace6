@@ -1,5 +1,8 @@
 
 todo 等待修改
+QT5 lib
+链接: https://pan.baidu.com/s/1mG-HthbcJtSMMmTLBCC4Mw 提取码: 8k3i
+
 
 # JSeetaface6
 
