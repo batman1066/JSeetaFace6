@@ -63,12 +63,12 @@ public class SeetaFace {
         }
         //load jni dll so
         if(os.contains("WINDOWS")){
-            String path = SeetaFace.class.getResource("/x64/windows/JSeetaFace6.dll").getPath();
+            String path = SeetaFace.class.getResource("/x64/windows/JSeetaface6.dll").getPath();
             System.out.println("loadPath:"+path);
             System.load(path);
         }else {
             loadQt5So();
-            String path = SeetaFace.class.getResource("/x64/centos/libJSeetaface6.so").getPath();
+            String path = SeetaFace.class.getResource("/x64/centos/libJSeetaFace6.so").getPath();
             System.out.println("loadPath:"+path);
             System.load(path);
         }
