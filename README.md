@@ -12,8 +12,6 @@ centos7下依赖QT5 lib
 3. windows版本请到大神https://github.com/CongCongBig/JSeetaface6
 7. 在此提供[Seetaface6的传送门](https://github.com/seetafaceengine/SeetaFace6)。
 8. 在此提供[Seetaface6入门教程的传送门](http://leanote.com/blog/post/5e7d6cecab64412ae60016ef)。
-9. 在此提供[JSeetaface6的Gitee传送门](https://gitee.com/onionYe/JSeetaface6)相对活跃。
-10. 在此提供[JSeetaface6的Github传送门](https://github.com/CongCongBig/JSeetaface6)。
 
 #### 安装教程
 
