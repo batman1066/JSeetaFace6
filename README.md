@@ -1,42 +1,19 @@
 
-todo 等待修改
+# JSeetaface6
+本项目主要是完善seetaFace6在centos7的jni,一对多搜索（稍后提供）。
 
 # 
-QT5 lib
+centos7下依赖QT5 lib
 链接: https://pan.baidu.com/s/1mG-HthbcJtSMMmTLBCC4Mw 提取码: 8k3i
-
-
-# JSeetaface6
-
-#### 更新说明
-
-2020.11.16
-1. 对JNI与C++再次重新认识，对全部模块内存进一步优化，在此感谢gitee用户li_yanhui提点。
-2. 在介绍处增加gitee和github的传送门，本人相对于github更经常活跃在gitee上，当然有时候gitee也找不到人，深感抱歉。
-3. SeetafaceUtil.writeRect方法不再在原图上画框框，而是创建一个BufferedImage再画上框框。
-4. SeetafaceUtil.show方法将窗口对象返回给调用者方便操作。
-
-2020.09.10
-1. 对JNI与C++的重新认识，针对常用的模块对内存进一步优化。
-2. Java中SeetaImageData转换C++中SeetaImageData从数组拷贝改为强转以加快操作速度。
-
-2020.08.05
-1. 在resource下增加cpp文件夹，存放不忍直视的jni代码。
 
 #### 介绍
 1. 基于中科院seetaface6进行封装的JAVA人脸识别算法库。
-2. 该封装仅做了java到seetaface6(c++)的连接(jni)，可以让java通过resource下x64/JSeetaface6.dll直接使用seetaface6动态库。
-3. 该项目只是本人初学jni的第一个作品，所以我仅会封装自己电脑的环境的windos64位系统，其他系统我还得摸索一下，除非有高人相助，否则一时半会我也提供不了，(本人仅略懂c++语法，其他一概不懂)。
-4. 方法上基本与seetaface6提供的文档相同，但有一些我自认为用不上的方法，以及功能性重复的方法则省略了。并且在含有下划线，方法命名都尽量使用java的规范。
-5. 该封装在~~java上以及~~动态库上，都没有对入参有任何校验，使用前需要自行判断入参的有效性。(java上已经做了入参校验)
-6. 该项目没有任何依赖。
+2. 该封装仅做了java到seetaface6(c++)的连接(jni)，可以让java通过resource下x64/centos/JSeetaFace6.so直接使用seetaface6动态库。
+3. windows版本请到大神https://github.com/CongCongBig/JSeetaface6
 7. 在此提供[Seetaface6的传送门](https://github.com/seetafaceengine/SeetaFace6)。
 8. 在此提供[Seetaface6入门教程的传送门](http://leanote.com/blog/post/5e7d6cecab64412ae60016ef)。
 9. 在此提供[JSeetaface6的Gitee传送门](https://gitee.com/onionYe/JSeetaface6)相对活跃。
 10. 在此提供[JSeetaface6的Github传送门](https://github.com/CongCongBig/JSeetaface6)。
-11. 在此处**强调，请认真查看入门教程**，如懒得看则记住一点，你所创建的各个模块都是线程不安全的，有些安全的你若认为麻烦就都认为不安全。
-12. **该项目部分接口本人暂时还未测试，仅供参考，建议在使用前自行做大量测试后投入使用。**
-
 
 #### 安装教程
 
@@ -46,7 +23,7 @@ QT5 lib
 ```
 cn.yezhss.seetaface.demo.base.SeetafaceTest
 ```
-基本上一看就会，或查看下面使用说明
+基本上一看就会，或查看下面使用说明，**请按照seetaface6官方说明修改相关路径**
 4.  希望能关注微信服务号: **时匆** 本人仅想打开服务号里的流量主QAQ，一般情况并不推送(本人懒) 谢谢支持
 
 #### 使用说明
