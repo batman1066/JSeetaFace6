@@ -30,8 +30,8 @@ public class FaceRecognizerTest extends SeetafaceTest {
 	private static FaceLandmarker marker;
 
 	public static void main(String[] args) {
-		String fileName = "/opt/workspace/idea/JSeetaFace6/src/main/resources/static/imgs/fanbingbing.jpg";
-		String fileName2 = "/opt/workspace/idea/JSeetaFace6/src/main/resources/static/imgs/fanbingbing.jpg";
+		String fileName = imgPathRoot+"/fanbingbing.jpg";
+		String fileName2 =imgPathRoot+"/test/fanbingbing.jpeg";
 		// 初始化人脸识别器
 		recognizer = new FaceRecognizer(CSTA_PATH + "/face_recognizer.csta");
 		

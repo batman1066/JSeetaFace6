@@ -12,7 +12,7 @@ public class SeetaFace {
      * 4. 下载完成后解压 将下面地址指向 %解压的路径%/sf6.0_windows/lib/x64
      * </pre>
      */
-    public static String DLL_PATH = "/opt/sf6.0_centos7/lib64";
+    public static String DLL_PATH = "C:\\dev\\seetaface6\\sf6.0_windows\\lib\\x64";
     /**
      * CSTA基础路径
      * <pre>
@@ -22,7 +22,7 @@ public class SeetaFace {
      * 4. 下载完成后解压 将下面地址指向 %解压的路径%/sf3.0_models
      * </pre>
      */
-    public static String CSTA_PATH = "/opt/sf3.0_models";
+    public static String CSTA_PATH = "C:\\dev\\seetaface6\\sf3.0_models";
 
 
 
