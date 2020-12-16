@@ -1,6 +1,6 @@
 
 # JSeetaface6
-本项目主要是完善seetaFace6在centos7的jni,一对多搜索（稍后提供）。
+本项目主要是完善seetaFace6在centos7的jni,一对多搜索。
 
 # 
 centos7下依赖QT5 lib
